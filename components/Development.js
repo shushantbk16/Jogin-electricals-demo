@@ -23,22 +23,22 @@ const Development = () => {
     </div>
     <div class="card red">
         <Image src={d2} width={200} height={200} style={{borderRadius:"20px"}} />
-        <p class="tip">Material Preperation</p>
+        <p class="tip">Fabrication</p>
         
     </div>
     <div class="card red">
     <Image src={d1} width={200} height={200} style={{borderRadius:"20px"}} />
-        <p class="tip">Fabrication</p>
+        <p class="tip">Hot dip Zinc galvanizing</p>
        
     </div>
     <div class="card red">
     <Image src={d4} width={200} height={200} style={{borderRadius:"20px"}} />
-        <p class="tip">Coating and Finshing</p>
+        <p class="tip">Polishing and Painting</p>
         
     </div>
     <div class="card red">
     <Image src={d5} width={200} height={200} style={{borderRadius:"20px"}} />
-        <p class="tip">Qulaity Assurance</p>
+        <p class="tip">Quality Inspection </p>
        
     </div>
     <div class="card red">

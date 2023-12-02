@@ -19,8 +19,8 @@ const Header = () => {
   return (
     <>
       <header>
-        <div className="container" style={{height:"23px"}}>
-          <div className="logo">
+        <div className="container" style={{height:"50px",backgroundColor:"lightgray",marginLeft:"0px"}}>
+          <div className="logo" style={{marginLeft:"5%"}}>
              
             <Link href="/">
             <div className="title-card">
@@ -33,35 +33,41 @@ const Header = () => {
           <nav
             className={open ? "openMenu" : "closeMenu"}
             onClick={() => setOpen(null)}
+            style={{paddingLeft:"20%"}}
           >
             <Link
               href="/"
               className={activeLink == "/" ? "activeLink" : "none"}
+              style={{color:"white"}}
             >
               Home
             </Link>
             
             <Link
-              href="#experTise"
+              href="/#experTise"
               className={activeLink == "#expertise" ? "activeLink" : "none"}
+              style={{color:"white"}}
             >
               Services
             </Link>
-            {/* <Link
-              href="#portFolio"
-              className={activeLink == "#portFolio" ? "activeLink" : "none"}
-            >
-              Portfolio
-            </Link> */}
             <Link
-              href="#about-us"
+              href="/projects"
+              className={activeLink == "#portFolio" ? "activeLink" : "none"}
+              style={{color:"white"}}
+            >
+              Our Projects
+            </Link>
+            <Link
+              href="/#about-us"
               className={activeLink == "#about-us" ? "activeLink" : "none"}
+              style={{color:"white"}}
             >
              About
             </Link>
             <Link
-              href="#foot"
+              href="/#foot"
               className={activeLink == "#foot" ? "activeLink" : "none"}
+              style={{color:"white"}}
             >
               Contact
             </Link>

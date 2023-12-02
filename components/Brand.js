@@ -17,6 +17,13 @@ const Brand = () => {
               </div>
             ))}
           </div>
+          <div className='brand-content grid-6 py'>
+            {brand.map((item) => (
+              <div className='client' key={item.id}>
+                <img src={item.cover} alt={item.id} width='100px' height='100px' />
+              </div>
+            ))}
+          </div>
           
           {/* <div className="container">
             <div className="">

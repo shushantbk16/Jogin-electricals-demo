@@ -11,30 +11,21 @@ import { TfiRulerPencil } from "react-icons/tfi";
 import { VscFileSubmodule } from "react-icons/vsc";
 import { BiUser } from "react-icons/bi";
 import Choose from "@/components/Choose";
-import Development from "@/components/Development";
+// import Development from "@/components/Development";
 import { motion } from "framer-motion";
 import Portfolio from "@/components/Portfolio";
+import Home from "@/components/Home";
 
 const Hero = () => {
+   
+
+
+
   return (
     <>
-      <section className="hero">
-        <div className="container cont">
-          <TitleLogo title="We Welcome You To" caption="" className="logobg" />
-          <h1 className="hero-title">JOGIN ELECTRICALS</h1>
-
-          <div className="sub-heading">
-            <TitleSm title="A QUALITY COMMITMENT"/> 
-            {/* <span>.</span>
-            <TitleSm title="APP DEVELOPMENT"/> <span>.</span>
-            <TitleSm title="UI/UX DESIGN" /> */}
-          </div>
-        </div>
-        
-
-      </section>
+      <Home/>
       <Expertise />
-      <Development/>
+      {/* <Development/> */}
      
       <Choose/>
       {/* <Portfolio/> */}

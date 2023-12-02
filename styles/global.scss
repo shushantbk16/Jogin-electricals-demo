@@ -1,3 +1,15 @@
+// Home
+.text-decoration{
+opacity: 0;
+}
+.marketplace-portfolio:hover .text-decoration{
+  opacity: 1;
+  top:10%;
+ 
+}
+
+
+
 /*  Hero Section */
 .hero {
   text-align: center;
@@ -6,7 +18,7 @@
   padding-top: $xll-3;
   height: 102vh !important;
   overflow: hidden !important;
-  background-image: url("../assets/images/yeka-uk-afcKMcl_R5c-unsplash.jpg");
+  background-image: url("../assets/images/LED-lights-delhi.jpg");
   background-size: 100% 100%;
   position: relative;
   &::before {
@@ -14,10 +26,10 @@
     position: absolute;
     top: 0;
     left: -40%;
-    width: 180%;
-    height: 200vh;
-    // background-image: url("../assets/images/art-top-cropp.jpg");
-    background-color:lightcoral;
+    width: 100%;
+    height: 100vh;
+    
+    // background-color:lightcoral;
     background-size: cover;
     background-position: center;
     z-index: -1;
@@ -34,6 +46,7 @@
   .sub-heading {
     display: flex;
     justify-content: center;
+    color: white;
     .titleSm {
       margin: 0 $xl-1;
     }
@@ -693,8 +706,8 @@ footer {
 
 .marketPlaces-portfolio {
   display: grid;
-  grid-template-columns: repeat(3,0.3fr);
-  margin-left: 10%;
+  grid-template-columns: repeat(4,0.3fr);
+ 
   
   gap: 2rem;
   margin-bottom: 8%;
@@ -711,9 +724,22 @@ footer {
     text-align: center;
     transition: 0.5s ease-in-out;
     width: 300px;
-    height: 410px;
+    height: 330px;
     &:hover {
       transform: scale(1.1);
+     
+      .image-portfolio{
+        opacity: 0.2;
+      }.name-portfolio{
+        opacity: 0.2;
+      }
+        // opacity: 0.3;
+        .text-decoration{
+          opacity: 1;
+          color: black;
+          
+        }
+      
       box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
         rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
         rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
