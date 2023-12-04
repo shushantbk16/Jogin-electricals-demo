@@ -1,6 +1,6 @@
 import React from "react"
 import { Title } from "./common/Title"
-import { brand } from "@/assets/data/dummydata"
+import { brand, client2 } from "@/assets/data/dummydata"
 import styled from "styled-components";
 const Brand = () => {
   return (
@@ -17,8 +17,8 @@ const Brand = () => {
               </div>
             ))}
           </div>
-          <div className='brand-content grid-6 py'>
-            {brand.map((item) => (
+          <div className='brand-content grid-6 py' style={{marginLeft:"18%"}}>
+            {client2.map((item) => (
               <div className='client' key={item.id}>
                 <img src={item.cover} alt={item.id} width='100px' height='100px' />
               </div>

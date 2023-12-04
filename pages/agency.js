@@ -1,12 +1,12 @@
 import { Agency } from "@/sections"
-import Head from "next/head"
+// import Head from "next/head"
 
 const AgencyPage = () => {
   return (
     <>
-      <Head>
+      {/* <Head>
         <title>About Agency</title>
-      </Head>
+      </Head> */}
       <Agency />
     </>
   )

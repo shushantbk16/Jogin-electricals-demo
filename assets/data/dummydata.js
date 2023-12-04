@@ -105,16 +105,16 @@ export const showcase = [
   {
     id: 1,
     title: "Manufacturing Decorative street Light Poles",
-    cover: "../images/exp-1.png",
+    cover: "../images/exp-10.jpeg",
     catgeory: "As licensed contractors, Jogin Industry brings precision and excellence to electrical projects, ensuring compliance with the highest industry standards for safe and efficient execution.",
-    description:"As licensed contractors, Jogin Industry brings precision and excellence to electrical projects, ensuring compliance with the highest industry standards for safe and efficient execution."
+    description:"Manufacturing decorative streetlight poles blends artistry with engineering precision. It involves conceptualizing designs, selecting durable materials like aluminum or steel, intricate fabrication, assembly, and stringent quality checks."
   },
   {
     id: 2,
     title: "Electrical supergrade licensed contractors",
     catgeory: "Supply / Install/ Maintenance of Electronic Telephone Exchange (EPABX), Push Buttons Telephones, Key Telephones Systems , Digital Exchanges, Phones, Voice Mail, Mobile Phones, Accessories etc.",
     cover: "../images/exp-1.png",
-    description:"As licensed contractors, Jogin Industry brings precision and excellence to electrical projects, ensuring compliance with the highest industry standards for safe and efficient execution."
+    description:"As licensed contractors, Jogin Electricals brings precision and excellence to electrical projects, ensuring compliance with the highest industry standards for safe and efficient execution."
   },
   {
     id: 3,
@@ -128,7 +128,7 @@ export const showcase = [
     title: "HT UG cable / LT UG cable",
     cover: "../images/exp-3.png",
     catgeory: "Supply / Installation of Data UTP / CAT - 5 cables in under ground trench / floor with specially designed boxes.Supply / installation of Information outlets.",
-    description:"Jogin Industry is proficient in handling both High Tension Underground (HT UG) and Low Tension Underground (LT UG) cables, providing reliable solutions prioritizing safety and efficiency in power distribution."
+    description:"Jogin Electricals is proficient in handling both High Tension Underground (HT UG) and Low Tension Underground (LT UG) cables, providing reliable solutions prioritizing safety and efficiency in power distribution."
   },
   {
     id: 5,
@@ -153,58 +153,69 @@ export const showcase = [
   },
   {
     id: 8,
-    title: "Highway , Industrial and Layout electrification ",
+    title: "Highway electrification ",
     cover: "../images/exp-7.png",
     catgeory: "Supply / Installation of Data UTP / CAT - 5 cables in under ground trench / floor with specially designed boxes.Supply / installation of Information outlets.",
-    description:"Jogin Electricals is your trusted partner for comprehensive electrification services, spanning highways, industrial zones, and layout developments. Our expertise ensures the seamless integration of power distribution networks, catering to the unique demands of each environment."
+    description:"Jogin Electricals offers comprehensive electrification services for highways, industrial zones, and layout developments, ensuring seamless integration of power distribution networks to meet unique environmental demands."
   },
+  {
+    id:"9",
+    title:"Industrial Electrification",
+    cover:"../images/exp-11.png",
+    description:"Industrial electrification involves integrating electrical power into industrial processes, replacing traditional methods with electrical machinery and systems."
+  },{
+    id:"10",
+    title:"Layout Electrification",
+    cover:"../images/exp-12.png",
+    description:"Layout electrification involves designing and implementing electrical systems within a specific space, planning the arrangement of components, wiring, fixtures, and outlets for safe and efficient distribution."
+  }
 ];
 export const brand = [
   {
     id: 1,
-    cover: "../images/squad.png",
+    cover: "../images/bsnl-logo-bsnl-icon-free-free-vector.jpg",
   },
   {
     id: 2,
-    cover: "../images/client-1.png",
+    cover: "../images/1200px-ACC_Limited_logo.svg.png",
   },
   {
     id: 3,
-    cover: "../images/client-2.png",
+    cover: "../images/download (1).png",
   },
   {
     id: 4,
-    cover: "../images/client-3.png",
+    cover: "../images/images (4).jpeg",
   },
   {
     id: 5,
-    cover: "../images/client-4.png",
+    cover: "../images/ashoka.png",
   },
   {
     id: 6,
-    cover: "../images/client-5.png",
+    cover: "../images/images (1).png",
   },
-  // {
-  //   id: 7,
-  //   cover: "../images/client-6.png",
-  // },
-  // {
-  //   id: 8,
-  //   cover: "../images/client-7.png",
-  // },
-  // {
-  //   id: 9,
-  //   cover: "../images/client-8.png",
-  // },
-  // {
-  //   id: 10,
-  //   cover: "../images/client-9.png",
-  // },
-  // {
-  //   id: 11,
-  //   cover: "../images/client-10.png",
-  // },
+  
 ];
+export const client2 =[
+  {
+    id: 7,
+    cover: "../images/1.jpeg",
+  },
+  {
+    id: 8,
+    cover: "../images/krdcl.jpeg",
+  },
+  {
+    id: 9,
+    cover: "../images/squad.png",
+  },
+  {
+    id: 10,
+    cover: "../images/client-9.png",
+  },
+ 
+]
 export const blogdata = [
   {
     id: 1,
@@ -443,18 +454,57 @@ export const projectDetails=[
         projecttitle:"Shiralkopp",
         projectdescription:"Providing New Decorative Central Street Lights Single Pole in Left and Right Hand Side in Zig Zag Fashion from Ch. 19+140 to 20+750 KMs in Shiralkopp Town Package M-7B WAEP-3 Shikaripur Anvatti Road."
       },
-      {
-        projectimg:"../images/client-3-project-3.png",
-        projecttitle:"Davangere",
-        projectdescription:"Construction of Embankment with RE Walls for Approaches to ROB on Ring Road at Sri D. DevarajUrs Layout in Davanagere City."
-      },
-      {
-        projectimg:"../images/client-3-project-4.png",
-        projecttitle:"Dharwad",
-        projectdescription:"Improvement/Widening to 4 lane divided carriageaway to road from Jubli circle on NH-4 at Km.427.68 to Narendra bypass at Km.433.30 (SH-73 from Km.229.100 to 223.600) in Dharwad city limits Job No.NH-4-KNT-2016-17-831."
-      },
+     
      
       ]
+  },
+  {
+    client:"Package",
+    theirprojects:[{
+      projectimg:"../images/client-4-project-1.png",
+      projecttitle:"Package 4",
+      projectdescription:"Conversion of LT Overhead Lines by LT under ground cable in channamma Nagar and Tilakwadi Area Belegavi"
+    },{
+      projectimg:"../images/client-4-project-2.png",
+      projecttitle:"Package 6",
+      projectdescription:"Conversion Of Lt Over Head Lines By Lt Under Ground Cable At Maratha Colon And Nanavadi Area In Belagavi City"
+    },{
+      projectimg:"../images/client-4-project-3.png",
+      projecttitle:"Package 8",
+      projectdescription:"Conversion Of Lt Overhead Lines By Lt Under Ground Cable At Shukrawar Peth Road & Mahatma Phule Road Area In Belgavi"
+    },{
+      projectimg:"../images/client-3-project-3.png",
+      projecttitle:"Davangere",
+      projectdescription:" Construction of Embankment with RE Walls for Approaches to ROB on Ring Road at Sri D. DevarajUrs Layout in Davanagere City."
+    },{
+      projectimg:"../images/client-3-project-4.png",
+      projecttitle:"Dharwad",
+      projectdescription:"Improvement/Widening to 4 lane divided carriageaway to road from Jubli circle on NH-4 at Km.427.68 to Narendra bypass at Km.433.30 (SH-73 from Km.229.100 to 223.600) in Dharwad city limits Job No.NH-4-KNT-2016-17-831"
+    }
+  ]
+  },
+  {
+    client:"PRED",
+    theirprojects:[{
+      projectimg:"../images/client-5-project-1.png",
+      projecttitle:"Uchagaon",
+      projectdescription:"Highmast Installation Work"
+    },{
+      projectimg:"../images/client-5-project-2.png",
+      projecttitle:"Shindolli ",
+      projectdescription:"Highmast Installation"
+    },{
+      projectimg:"../images/client-5-project-3.png",
+      projecttitle:"Kukadolli",
+      projectdescription:"Highmast Installation"
+    }]
+  },{
+    client:"BUDA",
+    theirprojects:[{
+      projectimg:"../images/client-6-project-1.png",
+      projecttitle:"Ajad Galli",
+      projectdescription:"Providing Street Light at Azad Galli, Belagavi."
+    }]
   }
 
 ]

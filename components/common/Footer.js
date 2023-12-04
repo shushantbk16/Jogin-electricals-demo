@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <>
       <footer>
-        <div className="container footer" id="foot">
+        <div className="container footer" id="foot" style={{marginLeft:"3%"}}>
           <div className="grid-4">
             <div className="logo">
               <TitleLogo title="JoginElectricals" caption="" className="logobg" />

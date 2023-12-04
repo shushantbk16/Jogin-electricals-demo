@@ -1,7 +1,8 @@
 import Link from "next/link";
 import { TitleLogo } from "./Title";
 import { useRouter } from "next/router";
-import { useEffect, useState } from "react";
+import { useEffect, useState} from "react";
+import { uselocation } from 'react-router-dom';
 import { RiMenu4Line } from "react-icons/ri";
 import { AiOutlineClose } from "react-icons/ai";
 import joginlogo from "@/assets/images/je-logo.png"
@@ -11,7 +12,27 @@ import Image from "next/image";
 const Header = () => {
   const [activeLink, setActiveLink] = useState("");
   const [open, setOpen] = useState(false);
-
+  // const [navbg, setnavbg] = react.usestate("transparent");
+  // const location = uselocation();
+  const [navColor, setnavColor] = useState("transparent");
+  // useEffect(() => {
+  //   if (window.location.pathname === "/projects") {
+  //     setnavColor("#ffffff");
+  //   } 
+  // }, [location]);
+  const listenScrollEvent = () => {
+    
+    window.scrollY > 200 ? setnavColor("#000000") : setnavColor("transparent");
+    
+   
+  };
+  useEffect(() => {
+    window.addEventListener("scroll", listenScrollEvent);
+    
+    return () => {
+      window.removeEventListener("scroll", listenScrollEvent);
+    };
+  }, []);
   const router = useRouter();
   useEffect(() => {
     setActiveLink(router.pathname);
@@ -19,7 +40,7 @@ const Header = () => {
   return (
     <>
       <header>
-        <div className="container" style={{height:"50px",backgroundColor:"lightgray",marginLeft:"0px"}}>
+        <div className="container" style={{height:"50px",backgroundColor:navColor,marginLeft:"0px",transition:"0.3s ease-in"}}>
           <div className="logo" style={{marginLeft:"5%"}}>
              
             <Link href="/">

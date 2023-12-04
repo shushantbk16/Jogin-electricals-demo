@@ -11,24 +11,35 @@ const Expertise = () => {
       <section className="expertise" >
         <div className="container" >
        
-          <div className="heading-title" >
-         
+          <div className="heading-title"  style={{paddingTop:"10%",paddingBottom:"2%"}}>
+          <div id="experTise" style={{height:"50px"}}></div>
           <motion.div
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}
-        transition={{ duration: 0.8 }}
+        transition={{ duration: 1.0 }}
         variants={{
           visible: { opacity: 1, scale: 1, x: 0, y: 0 },
-          hidden: { opacity: 0, scale: 0.5 },
+          hidden: { opacity: 0, scale: 1 ,y:60 },
         }}
       >
-       <div id="experTise" style={{height:"50px"}}></div>
+      
         <Title title="Our expertise" />
+        </motion.div>
+        <motion.div
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true }}
+        transition={{ duration: 1.0 }}
+        variants={{
+          visible: { opacity: 1, scale: 1, x: 0, y: 0 },
+          hidden: { opacity: 0, scale: 1 ,y:60 },
+        }}
+      >
             <p >
             Company undertakes following type of work: Contracting & Engineering from Designing to Project Execution for the following trade as Beautification of cities by providing UG cable system with decorative lighting, Electrical internal wiring, Telecommunications, Data Networking, Structured cabling and Energy Management & Conservation.
             </p>
-      </motion.div>
+            </motion.div>
             
           </div>
           
@@ -53,13 +64,13 @@ const Expertise = () => {
             >
             <div className="marketplace-portfolio" style={{position:"relative"}}>
               <div className="image-portfolio ">
-                <img src={item.cover} alt="marketplace-portfolio "  style={{ width:"275px",height: "250px"}}/>
+                <img src={item.cover} alt="marketplace-portfolio "  style={{ width:"100%",height: "30vh"}}/>
               </div>
               <div className="name-portfolio ">
                 <h4 style={{fontSize:"15px"}}>{item.title}</h4>
                
               </div>
-              <h1 className="text-decoration" style={{position:"absolute",color:"black",fontSize:"15px",justifyContent:"center"}}>{item.description}</h1>
+              <h1 className="text-decoration" style={{position:"absolute",color:"black",fontSize:"15px",justifyContent:"center",top:"26%",font:"menu"}}>{item.description}</h1>
               {/* <h6 className="username-portfolio ">{item.catgeory}</h6> */}
              
             </div>
